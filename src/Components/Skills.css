@@ -1,0 +1,40 @@
+.skills {
+  padding: 60px 20px 20px; 
+  background-color: #000;
+  text-align: left;
+}
+
+.skills h2 {
+  font-size: 2em; 
+  margin-bottom: 20px;
+}
+
+.skills p {
+  margin-bottom: 20px; 
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; 
+}
+
+.skill {
+  flex: 1 1 45%;
+}
+
+.skill span {
+  display: block;
+  margin-bottom: 5px; 
+}
+
+.skill-bar {
+  background-color: #333;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.skill-level {
+  height: 8px;
+  background-color: #f0a500;
+}
